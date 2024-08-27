@@ -1,0 +1,63 @@
+0@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+body{
+    background-image: url("PAGINA 03/Imagem1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;  
+  
+}
+
+h1{
+    position: absolute;
+    font-size: 70px;
+    margin-left: 40px;
+    font-family: "Kanit", sans-serif;
+}
+.img-inst,.img-face,.img-what{
+    position: absolute; 
+    width: 150px; 
+    height: auto; 
+    margin-bottom: 50px; 
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.img-face {
+    margin-top: 28%;
+    left: 15%;
+    width: 200px; 
+}
+
+.img-what {
+    margin-top: 30%;
+    left: 30%;
+}
+
+.img-inst {
+    margin-top: 30%;
+    margin-left: 2%;
+}
+
+.img-inst:hover, .img-face:hover,.img-what:hover{
+    transform: scale(1.2); 
+}
+
+.img-1{
+    position: relative;
+    animation: flutuar 1s ease-in-out infinite alternate;
+    margin-top: 10px;
+    margin-left: 60%;
+    cursor: pointer;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
